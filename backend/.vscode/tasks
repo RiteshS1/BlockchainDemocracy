@@ -1,0 +1,29 @@
+// {
+//     "version": "2.0.0",
+//     "tasks": [
+//       {
+//         "label": "build",
+//         "type": "shell",
+//         "command": "g++",
+//         "args": [
+//           "-g",
+//           "${workspaceFolder}/backend/cpp_blockchain/*.cpp",
+//           "-o",
+//           "${workspaceFolder}/backend/cpp_blockchain/Block.exe",
+//           "-I",
+//           "C:/Program Files/OpenSSL-Win64/include",
+//           "-L",
+//           "C:/Program Files/OpenSSL-Win64/lib/VC/x64/MDd",
+//           "-lssl",
+//           "-lcrypto"
+//         ],
+//         "group": {
+//           "kind": "build",
+//           "isDefault": true
+//         },
+//         "problemMatcher": ["$gcc"],
+//         "detail": "Generated task"
+//       }
+//     ]
+//   }
+  
